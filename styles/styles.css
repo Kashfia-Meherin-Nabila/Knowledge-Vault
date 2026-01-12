@@ -7,6 +7,9 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;  
 }
+.color-primary{
+    color:#30B868
+}
 .btn{
     background-color: #30B868;
     color: white;
@@ -14,11 +17,33 @@
     font-weight: 600;
     padding: 12px 16px;
     border-radius: 4px;
-    border: none;
+    border:#30B868;
+    align-items: center;
+    
 }
+ .btn:hover{
+    background-color: transparent;
+    border: white;
+ }
+
+.btn2{
+    background-color: transparent;
+    border:1px solid white;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 16px;
+    border-radius: 4px;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 /* header style */
 body{
     max-width: 1600px;
+    margin: 0px auto;
 }
 nav{
     margin: 0px auto;
@@ -42,4 +67,67 @@ nav .menu a{
     color: black;
     text-decoration: none;
 
+}
+
+/* hero section style */
+#banner{
+    background-image: url(/assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    padding: 205px 295px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    min-height: 90vh;   
+}
+.banner .container {
+    position: relative;
+    z-index: 2;
+    max-width: 1600px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.banner-content{
+    
+    /* padding: 205px 295px; */
+    max-width: 770px;
+    margin: auto;
+}
+.hero-badge {
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    
+}
+.hero-tagline{
+    width: 235px;
+    height: 35px;
+    display: inline-flex;
+    background-color: rgba(255, 255, 255, 1);
+    color: #30B868;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 16px;
+    border-radius: 30px;
+   
+}
+.hero-title{
+    font-size: 64px;
+    line-height: 1.15;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 72px;
+
+}
+.hero-description{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 32px;
 }
