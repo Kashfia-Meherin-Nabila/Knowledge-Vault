@@ -133,6 +133,7 @@ nav .menu a{
     line-height: 24px;
     margin-bottom: 32px;
 }
+
 /* Notes don't fail section */
 #notes{
     padding-top: 50px;
@@ -282,6 +283,7 @@ nav .menu a{
     justify-content: center;
     margin: 12px auto;
 }
+
 /* footer-section */
 #footer-section{
     background-color: rgba(0, 25, 49, 1);
